@@ -1,0 +1,14 @@
+[package]
+name = "vmfparser"
+version = "0.1.0"
+authors = ["Léo-Paul COUTURIER <root@leops.me>"]
+description = "Parser for the Valve Map File format"
+documentation = "https://docs.rs/vmfparser/"
+repository = "https://github.com/leops/vmfparser-rs/"
+readme = "README.md"
+keywords = ["vmf", "parser", "hammer"]
+categories = ["parsing"]
+license = "MIT"
+
+[dependencies]
+synom = "0.11"
